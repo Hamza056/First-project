@@ -53,6 +53,12 @@ nav {
   margin-right: 15rem;
 }
 
+@media screen and (max-width: 700px) {
+  .links ul {
+    display: none;
+  }
+}
+
 .links li a {
   font-size: 1.6rem;
   text-decoration: none;
@@ -227,7 +233,7 @@ nav {
 .gallery .share-icon {
   position: absolute;
   top: 8%;
-  right: 8%;
+  right: 12%;
 }
 
 .gallery .video-icon {
@@ -259,7 +265,7 @@ nav {
 .gallery .time-text {
   position: absolute;
   bottom: 4.5%;
-  right: 9%;
+  right: 12%;
   color: white;
   font-size: 4rem;
 }
@@ -803,7 +809,7 @@ footer .img-card img {
 
 footer .footer-blue {
   margin-top: 10rem;
-  height: 50vh;
+  height: 100vh;
   background-color: #0042cc;
   position: relative;
 }
@@ -813,9 +819,6 @@ footer .footer-blue {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0;
   }
 }
 
@@ -926,12 +929,12 @@ footer .polygon {
 }
 
 .footer-container p {
-  color: #272C37;
+  color: #272c37;
   font-size: 1.4rem;
 }
 
 .footer-container h2 {
-  color: #272C37;
+  color: #272c37;
   font-size: 1.6rem;
 }
 
